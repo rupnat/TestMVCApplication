@@ -12,6 +12,7 @@
             $scope.error = "Could not fetch data.";
         };
 
+
         $http.get("/api/Customer/Get").then(getCustomers, onError);
 
     };
